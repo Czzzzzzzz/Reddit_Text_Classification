@@ -1,0 +1,43 @@
+----------------
+0. Pipeline
+----------------
+0.1 reddit_praw/reddit_praw.py: extract data
+0.2 reddit_praw/data_integration.py: integrate data in data/raw folder
+0.3 model/data_loader.py: split data.csv into test.csv and train.csv
+0.4 model/word2vec.py: train word2vec
+0.5 model/reddit_tc_*.py: models
+
+----------------
+1. reddit_praw
+----------------
+Tool for scraping titles of subreddits from reddit.com.
+
+example command:
+python reddit_praw.py labels ../data/raw/
+
+run reddit_praw.py file, read labels from 'labels' file and write results to '../data/raw/' folder
+
+----------------
+2. data
+----------------
+Folder storing Reddit data and word2vec.
+
+----------------
+3. reddit_crawler
+----------------
+incompleted.
+
+----------------
+4. references
+----------------
+referenced pdf, books, or papers.
+
+----------------
+5. results
+----------------
+optimal models
+
+----------------
+6. records
+----------------
+Ideas and notes for experiments.
